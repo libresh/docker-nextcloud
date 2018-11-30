@@ -1,4 +1,5 @@
-FROM nextcloud:13-fpm
+ARG VERSION=latest
+FROM indiehosters/nextcloud:$VERSION
 RUN apt-get update \
  && apt-get install -y --no-install-recommends \
       libc-client-dev \

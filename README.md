@@ -1,2 +1,1 @@
-# docker-nextcloud
-Nextcloud docker image for libre.sh
+Moved to https://lab.libreho.st/libre.sh/docker/nextcloud
